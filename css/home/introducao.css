@@ -1,0 +1,54 @@
+.introducao-bg {
+  background: #0d0d0e url("../../img/dec/bottom-left.svg") no-repeat bottom
+    160px left 20px;
+  box-shadow: inset 0 -120px var(--cor-0);
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
+}
+
+.introducao-conteudo {
+  align-self: end;
+  padding-bottom: 200px;
+  margin-top: 30px;
+}
+
+.introducao h1 {
+  margin-bottom: 32px;
+}
+
+.introducao p {
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+introducao img {
+  height: 650px;
+  width: 550px;
+  margin-top: 60px;
+}
+.imagem-moto {
+  height: 363px;
+  width: 620px;
+  margin-top: 0px;
+}
+
+@media (max-width: 800px) {
+  .introducao-bg {
+    background: #0551f4;
+    padding-top: 40px;
+    box-shadow: inset 0 -60px #ffffff;
+  }
+  .introducao {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .introducao-conteudo {
+    padding-bottom: 0px;
+  }
+  .introducao h1 {
+    margin-bottom: 16px;
+  }
+}

@@ -1,0 +1,94 @@
+.tecnologia-bg {
+  background-color: #0758f9;
+  box-shadow: inset 0 80px var(--cor-0), inset 0 -80px var(--cor-0);
+}
+
+.tecnologia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.tecnologia-imagem {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centraliza horizontalmente */
+  gap: 20px; /* espaçamento entre as imagens */
+  padding: 160px 0; /* espaço acima e abaixo */
+  margin-left: 140px;
+}
+.tecnologia-imagem img {
+  width: 80%;
+  max-width: 600px; /* pode aumentar para ocupar mais da largura se quiser */
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px; /* opcional: dá um visual mais bonito */
+}
+
+.tecnologia-conteudo {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.tecnologia-conteudo > span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.tecnologia-conteudo h2 {
+  margin-bottom: 32px;
+  margin-top: 100px;
+}
+
+.tecnologia-conteudo > p {
+  margin-bottom: 20px;
+}
+
+.tecnologia a {
+  margin-bottom: 80px;
+}
+
+.tecnologia-vantagens {
+  display: flex;
+  gap: 40px;
+}
+
+.tecnologia-vantagens h3 {
+  margin-bottom: 8px;
+  width: max-content;
+}
+
+.tecnologia-vantagens img {
+  width: 24px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
+  .tecnologia-bg {
+    box-shadow: initial;
+  }
+  .tecnologia {
+    grid-template-columns: 1fr;
+  }
+  .tecnologia-conteudo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .tecnologia-imagem {
+    display: none;
+  }
+  .tecnologia a {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tecnologia-vantagens {
+    flex-direction: column;
+  }
+}
+.link {
+  color: #000; /* preto */
+  text-decoration: none; /* opcional, remove o sublinhado */
+  font-weight: bold; /* opcional, deixa o link mais visível */
+}

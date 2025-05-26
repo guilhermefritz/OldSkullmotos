@@ -16,5 +16,5 @@ O Old Skull Motos é um projeto de site  para uma empresa fictícia especializad
 Objetivo:
 O projeto demonstra a minha capacidade de criar uma estrutura de site corporativo, com navegação clara e design responsivo, ideal para apresentar serviços e informações de uma empresa ao público.
 
-🔗 Repositório: github.com/guilhermefritz/OldSkullmotos
+🔗 Repositório: https://guilhermefritz.github.io/OldSkullmotos/
 
